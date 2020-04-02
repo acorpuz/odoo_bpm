@@ -9,12 +9,10 @@
 
     'description': """
          With this module you can manage :
-         
+
          - Process
          - Automated Activity
          - Manual Activity
-         
-         
     """,
 
     'author': "SayDigital",
@@ -24,7 +22,7 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'project',
-    'version': '1.0',
+    'version': '1.2',
 
     # any module necessary for this one to work correctly
     'depends': ['base','base_automation','syd_note_name','syd_dynamic_wizard','syd_history_back'],
@@ -38,7 +36,6 @@
         'wizard/views.xml',
         'views/res_config_settings_views.xml',
         'views/menu.xml',
-        
     ],
     'installable': True,
     'application': True,
